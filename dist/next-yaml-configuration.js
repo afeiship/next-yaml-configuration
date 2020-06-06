@@ -2,15 +2,15 @@
  * name: @feizheng/next-yaml-configuration
  * description: Yaml configuration for next.
  * homepage: https://github.com/afeiship/next-yaml-configuration
- * version: 1.0.1
- * date: 2020-06-06T03:53:00.219Z
+ * version: 1.0.2
+ * date: 2020-06-06T04:01:42.570Z
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
-  var NxAbstractConfiguration = nx.AbstractConfiguration || require('@feizheng/next-abstract-configuration')
+  var NxAbstractConfiguration = nx.AbstractConfiguration || require('@feizheng/next-abstract-configuration');
   var fs = require('fs');
   var yaml = require('js-yaml');
   var DEFALUT_OPTIONS = { path: null, charset: 'utf8' };

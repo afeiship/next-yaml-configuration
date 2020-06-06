@@ -1,7 +1,7 @@
 (function () {
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
-  var NxAbstractConfiguration = nx.AbstractConfiguration || require('@feizheng/next-abstract-configuration')
+  var NxAbstractConfiguration = nx.AbstractConfiguration || require('@feizheng/next-abstract-configuration');
   var fs = require('fs');
   var yaml = require('js-yaml');
   var DEFALUT_OPTIONS = { path: null, charset: 'utf8' };
