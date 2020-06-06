@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-yaml-configuration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yaml configuration for next.",
   "homepage": "https://github.com/afeiship/next-yaml-configuration",
   "author": {
@@ -32,6 +32,7 @@
     "yargs": "^15.3.1"
   },
   "dependencies": {
+    "@feizheng/next-abstract-configuration": "^1.0.4",
     "@feizheng/next-js-core2": "^2.5.0",
     "js-yaml": "^3.14.0"
   },
