@@ -1,0 +1,6 @@
+name: next-yaml-configuration
+version: 1.0.0
+scripts:
+  build: gulp
+  start: node server.js
+  dev: nodemon src.js
