@@ -9,8 +9,8 @@
   var NxYamlConfiguration = nx.declare('nx.YamlConfiguration', {
     extends: NxAbstractConfiguration,
     methods: {
-      initOptions: function (inOptions) {
-        this.options = nx.mix(null, DEFALUT_OPTIONS, inOptions);
+      defaults: function () {
+        return DEFALUT_OPTIONS;
       },
       load: function () {
         return yaml.safeLoad(
