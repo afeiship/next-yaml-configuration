@@ -2,8 +2,8 @@
  * name: @feizheng/next-yaml-configuration
  * description: Yaml configuration for next.
  * homepage: https://github.com/afeiship/next-yaml-configuration
- * version: 1.1.0
- * date: 2020-06-06T04:11:12.435Z
+ * version: 1.1.1
+ * date: 2020-07-17T03:44:27.003Z
  * license: MIT
  */
 
