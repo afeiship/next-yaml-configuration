@@ -1,16 +1,16 @@
 /*!
- * name: @feizheng/next-yaml-configuration
+ * name: @jswork/next-yaml-configuration
  * description: Yaml configuration for next.
  * homepage: https://github.com/afeiship/next-yaml-configuration
- * version: 1.1.1
- * date: 2020-07-17T03:44:27.003Z
+ * version: 1.0.0
+ * date: 2020-11-20 18:00:06
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-  var NxAbstractConfiguration = nx.AbstractConfiguration || require('@feizheng/next-abstract-configuration');
+  var nx = global.nx || require('@jswork/next');
+  var NxAbstractConfiguration = nx.AbstractConfiguration || require('@jswork/next-abstract-configuration');
   var fs = require('fs');
   var yaml = require('js-yaml');
   var DEFALUT_OPTIONS = { path: null, charset: 'utf8' };
@@ -22,12 +22,7 @@
         return DEFALUT_OPTIONS;
       },
       load: function () {
-        return yaml.safeLoad(
-          fs.readFileSync(
-            this.options.path,
-            this.options.charset
-          )
-        )
+        return yaml.safeLoad(fs.readFileSync(this.options.path, this.options.charset));
       },
       dump: function () {
         return yaml.safeDump(this.data);
@@ -39,5 +34,3 @@
     module.exports = NxYamlConfiguration;
   }
 })();
-
-//# sourceMappingURL=next-yaml-configuration.js.map
