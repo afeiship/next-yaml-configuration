@@ -3,7 +3,7 @@
  * description: Yaml configuration for next.
  * homepage: https://github.com/afeiship/next-yaml-configuration
  * version: 1.0.0
- * date: 2020-11-20 18:00:06
+ * date: 2020-11-20 18:02:59
  * license: MIT
  */
 
