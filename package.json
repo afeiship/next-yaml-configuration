@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-yaml-configuration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yaml configuration for next.",
   "homepage": "https://github.com/afeiship/next-yaml-configuration",
   "author": {
@@ -36,7 +36,8 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@jswork/next-abstract-configuration": "^1.0.0"
+    "@jswork/next-abstract-configuration": "^1.0.0",
+    "js-yaml": "^3.14.0"
   },
   "keywords": [
     "next",

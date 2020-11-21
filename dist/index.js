@@ -2,8 +2,8 @@
  * name: @jswork/next-yaml-configuration
  * description: Yaml configuration for next.
  * homepage: https://github.com/afeiship/next-yaml-configuration
- * version: 1.0.0
- * date: 2020-11-20 18:02:59
+ * version: 1.0.1
+ * date: 2020-11-21 11:28:32
  * license: MIT
  */
 
