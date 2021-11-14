@@ -1,0 +1,3 @@
+commands:
+  c2:
+    - ls -alh

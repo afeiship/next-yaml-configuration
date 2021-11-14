@@ -1,4 +1,4 @@
-(function() {
+(function () {
   const NxYamlConfiguration = require('../src');
 
   var path = require('path');
@@ -20,9 +20,20 @@
         path: filename
       });
 
-      // console.log(config.gets());
-      expect(config.get('env.home')).toBe('/Users/feizheng');
+      expect(config.get('env.home')).toBe(process.env.HOME);
+    });
+
+    test('deepAssign multiple yml files:', () => {
+      var config = new NxYamlConfiguration({
+        path: [path.join(__dirname, './1.yml'), path.join(__dirname, './2.yml')]
+      });
+
+      expect(config.gets()).toEqual({
+        commands: {
+          c1: ['ls', 'pwd'],
+          c2: ['ls -alh']
+        }
+      });
     });
   });
-
 })();
