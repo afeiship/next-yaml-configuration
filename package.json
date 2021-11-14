@@ -36,7 +36,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "@jswork/next-abstract-configuration": "^1.0.0",
+    "@jswork/next-abstract-configuration": "^1.0.1",
     "js-yaml": "^3.14.0"
   },
   "keywords": [
